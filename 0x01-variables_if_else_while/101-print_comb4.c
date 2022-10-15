@@ -10,13 +10,13 @@ int main(void)
 	int j = i + 1;
 	int k = j + 1;
 
-	while (i < = '7')
+	while (i <= '7')
 	{
 		while (j <= '8')
 		{
 			while (k <= '9')
 			{
-				if (i < j < k)
+				if (i < j && j < k)
 				{
 					putchar(i);
 					putchar(j);
