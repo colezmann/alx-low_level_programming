@@ -6,6 +6,13 @@
   */
 int main(void)
 {
-	printf("0123456789\n");
+	char x = 48;
+
+	while(x <= 57)
+	{
+		putchar(x);
+		x++;
+	}
+	putchar(10);
 	return (0);
 }
