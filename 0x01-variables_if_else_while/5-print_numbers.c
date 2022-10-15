@@ -8,7 +8,7 @@ int main(void)
 {
 	char x = 48;
 
-	while(x <= 57)
+	while (x <= 57)
 	{
 		putchar(x);
 		x++;
