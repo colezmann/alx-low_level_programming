@@ -2,14 +2,14 @@
 /**
   * print_last_digit - Prints the last digit of a number n.
   * @n: number whose last digit is to be printed.
-  * Return: last digit of n.
+  * Return: last digit z of n.
   */
 int print_last_digit(int n)
 {
+	int z = n % 10;
+
 	if (n < 0)
-	{
-		n = n * -1;
-	}
-	_putchar((n % 10) + '0');
-	return (n % 10);
+		z = z * -1;
+	_putchar(z + '0');
+	return (z);
 }
