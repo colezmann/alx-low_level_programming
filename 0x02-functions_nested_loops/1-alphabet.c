@@ -2,7 +2,7 @@
 /**
   * print_alphabet - Prints the alphabet in lowercase, followed by a new line
   * 
-  * Return: Always 0 (Success)
+  * Return: Nothing
   */
 void print_alphabet(void)
 {
@@ -11,7 +11,7 @@ void print_alphabet(void)
 	while (c <= 'z')
 	{
 		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
-	return (0);
 }
