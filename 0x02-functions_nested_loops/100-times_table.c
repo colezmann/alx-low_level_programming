@@ -27,7 +27,7 @@ void print_times_table(int n)
 				{
 					_putchar(',');
 					_putchar(' ');
-					if (prod > 10)
+					if (prod < 10)
 					{
 						_putchar(' ');
 						_putchar(' ');
