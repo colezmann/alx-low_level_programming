@@ -2,7 +2,7 @@
 /**
   * print_times_table - Prints the n times table
   * @n: integer (n > 0 && n <= 15)
-  * Return: Array of products in (n + 1)rows r by 
+  * Return: Array of products in (n + 1)rows r by
   * (n + 1)columns c
   */
 void print_times_table(int n)
