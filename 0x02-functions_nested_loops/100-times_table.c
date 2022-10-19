@@ -1,12 +1,9 @@
 #include "main.h"
 /**
   * print_times_table - Prints the n times table
-  * starting with 0
   * @n: integer (n > 0 && n <= 15)
-  * @r: row element
-  * @c: column element
-  * Return: Array of products in (n + 1)rows by 
-  * (n + 1) columns
+  * Return: Array of products in (n + 1)rows r by 
+  * (n + 1)columns c
   */
 void print_times_table(int n)
 {
@@ -42,7 +39,7 @@ void print_times_table(int n)
 					else if (prod >= 100)
 					{
 						_putchar('0' + (prod / 100));
-						_putchar('0' + (prod /10) % 10);
+						_putchar('0' + (prod / 10) % 10);
 						_putchar('0' + (prod % 10));
 					}
 				}
