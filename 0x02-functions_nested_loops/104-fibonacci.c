@@ -7,7 +7,8 @@
 int main(void)
 {
 	int i;
-	unsigned long a, b, c, p, q, x, y;
+	unsigned long a, b, c;
+	unsigned long p, q, x, y;
 
 	i = 0;
 	a = 0;
@@ -26,10 +27,11 @@ int main(void)
 	while (i <= 98)
 	{
 		y = (p + q) / 1000;
-		x = (a + b) - y * 1000;
+		x = (p + q) - y * 1000;
 		c = (a + b) + y;
 		p = q;
 		q = x;
+		a = b;
 		b = c;
 		if (x >= 100)
 			printf("%lu%lu", c, x);
