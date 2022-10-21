@@ -5,6 +5,8 @@
  */
 void print_diagonal(int n)
 {
+	int dia, sp;
+
 	if (n > 0)
 	{
 		for (dia = 1; dia <= n; dia++)
