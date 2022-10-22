@@ -7,7 +7,7 @@ void print_number(int n)
 {
 	unsigned int tens, digit, positive = n;
 	double tb = 1;
-	
+
 	if (n == 0)
 		_putchar('0');
 	else
@@ -17,7 +17,7 @@ void print_number(int n)
 			positive = n * -1;
 			_putchar('-');
 		}
-		
+
 		while (tb <= positive)
 			tb *= 10;
 		tens = tb / 10;
