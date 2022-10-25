@@ -12,10 +12,11 @@ int _atoi(char *s)
 	i = negative = res = boolean = 0;
 	negative = -1;
 
-	while (*s != '\0')
+	while (s[i] != '\0')
 	{
 		if (s[i] == '-')
 			negative *= -1;
+
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			res *= 10;
