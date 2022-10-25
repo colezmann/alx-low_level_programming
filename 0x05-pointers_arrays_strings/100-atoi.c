@@ -9,7 +9,7 @@ int _atoi(char *s)
 	short boolean;
 	int i, minus, result;
 
-	i = minus = result = boolean = 0;
+	i = negative = res = boolean = 0;
 	negative = -1;
 
 	while (*s != '\0')
