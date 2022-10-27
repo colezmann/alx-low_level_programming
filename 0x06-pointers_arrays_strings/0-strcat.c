@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - appends the src string to the dest string.
+ * _strcat - appends the src string to the dest string.
  * @src: string to append.
  * @dest: string to be appended to.
  * Return: pointer to dest.
