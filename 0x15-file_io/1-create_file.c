@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - determine length of string
- * str - string whose length is to be determined
+ * @str: string whose length is to be determined
  * Return: string length
  */
 int _strlen(char *str)
